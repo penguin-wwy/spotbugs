@@ -1,7 +1,9 @@
 language: java
 sudo: false
 dist: trusty
-
+addons:
+  apt:
+    update: true
 jdk:
   - oraclejdk8
   - oraclejdk9
